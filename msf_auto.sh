@@ -49,4 +49,4 @@ then
 	msfconsole -r mr.rc
 fi
 rm m.rc mr.rc
-
+rm FILENAME.apk window.exe
