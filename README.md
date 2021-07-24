@@ -15,6 +15,7 @@ just copy paste from here
 # cd Downloads
 # git clone https://github.com/Arpan301/msf_auto-web-apache-payload.git
 # cd msf_auto-web-apache-payload
+#chmod +x msf_auto-web-apache-payload
 # sudo su
 **//provide the password as you need root privilage**//
 # bash msf_auto.sh
